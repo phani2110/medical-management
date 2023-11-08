@@ -20,8 +20,7 @@ let generateCartItems = () => {
       <div class="cart-item">
         <img width="100" src=${search.img} alt="" />
         <div class="details">
-
-          <div class="title-price-x">
+           <div class="title-price-x">
               <h4 class="title-price">
                 <p>${search.name}</p>
               </h4>
