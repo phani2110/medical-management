@@ -9,11 +9,16 @@ let generateShop = () => {
       let search = basket.find((x) => x.id === id) || [];
       return `
     <div id=product-id-${id} class="item">
+     <div class="image-wrapper-shop">
         <img width="220" src=${img} alt="">
+        </div>
         <div class="details">
+        <div class="dn">
           <h3>${name}</h3>
           <p>${desc}</p>
+          </div>
           <div class="price-quantity">
+            <div class="pq">
             <h2>&#8377 ${price} </h2>
             <div class="buttons">
               <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
@@ -21,6 +26,7 @@ let generateShop = () => {
               ${search.item === undefined ? 0 : search.item}
               </div>
               <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
+            </div>
             </div>
           </div>
         </div>

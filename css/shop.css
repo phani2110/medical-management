@@ -25,9 +25,23 @@
     justify-content: center;
     background-color:whitesmoke;
     padding-top: 10px;
-    padding-bottom: 10px;
   }
+  .image-wrapper-shop img{
+    height:15vh;
+  }
+  .image-wrapper-shop img{
+    max-width:100%;
+    max-height: 100%;
+  }
+
   
+  .dn{
+    height:10vh;
+  }
+  .pq{
+    height:10vh;
+    
+  }
   @media (max-width: 1000px) {
     .shop {
       grid-template-columns: repeat(2, 223px);
@@ -57,7 +71,7 @@
   .name{
     padding-top:30px
   }
-  .details {
+  .details .pq {
     display: flex;
     flex-direction: column;
     padding: 10px;

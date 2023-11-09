@@ -243,6 +243,15 @@ a:focus {
           transform: rotate(90deg);
   top: 0;
 }
+.btn1{
+  text-decoration: none;
+}
+.carousel-control-prev{
+  text-decoration: none;
+}
+.carousel-control-next,.contact_link_box a,.footer_social a,.footer_links a{
+  text-decoration: none;
+}
 
 /*end header section*/
 /* slider section */
