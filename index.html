@@ -252,8 +252,12 @@
   <link href="css/style.css" rel="stylesheet">
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="css/carousel.css" rel="stylesheet">
 
-  <script type="text/javascript" charset="UTF-8"
+
+  <!--<script type="text/javascript" charset="UTF-8"
     src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/common.js"></script>
   <script type="text/javascript" charset="UTF-8"
     src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/util.js"></script>
@@ -264,8 +268,11 @@
   <script type="text/javascript" charset="UTF-8"
     src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/controls.js"></script>
   <script type="text/javascript" charset="UTF-8"
-    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/marker.js"></script>
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/marker.js"></script>-->
   <script src="https://kit.fontawesome.com/6c526196ba.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -398,43 +405,99 @@
     </section>
     <!-- end slider section -->
   </div>
-
-
-  <!-- about section -->
-
-  <section class="about_section layout_margin-bottom">
-    <div class="container  ">
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About <span>Us</span>
-              </h2>
+  <!--card carousel-->
+  <div id="carouselExampleControls" class="carousel carousel-dark  slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="cards-wrapper">
+          <div class="card">
+            <img src="images/card-images/cd3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <p>
-              We are dedicated to providing top-quality medical supplies and personalized service to our customers.We
-              understand the importance of easy access to healthcare products and strive to make your medical shopping
-              experience convenient and hassle-free.
-            </p>
-            <a href="">
-              Read More
-            </a>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/insulin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/asprin.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/az.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-
-
-
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <div class="card">
+            <img src="images/card-images/cetrizine.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/vitamine.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/vitaminc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/pc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
   <!-- contact section -->
   <section class="contact_section layout_padding">
     <div class="container">
@@ -514,8 +577,10 @@
                             </div>
                           </div>
                         </div>
-                        <div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
-                        <div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;">
+                        </div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;">
+                        </div>
                         <div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
                           <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
                             <div style="position: absolute; z-index: 982; transform: matrix(1, 0, 0, 1, -127, -34);">
@@ -585,12 +650,17 @@
                         style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;">
                         <div
                           style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);">
-                          <div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div>
-                          <div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div>
-                          <div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><span
-                              id="0870B23F-3E8A-4F3B-A37A-C95AA2B861E7" style="display: none;">To navigate, press the
-                              arrow keys.</span></div>
-                          <div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div>
+                          <div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;">
+                          </div>
+                          <div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;">
+                          </div>
+                          <div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
+                            <span id="0870B23F-3E8A-4F3B-A37A-C95AA2B861E7" style="display: none;">To
+                              navigate, press the
+                              arrow keys.</span>
+                          </div>
+                          <div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;">
+                          </div>
                         </div>
                       </div>
                       <div class="gm-style-moc"
@@ -800,8 +870,8 @@
                       </div>
                     </div>
                     <div>
-                      <div style="margin: 0px 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a
-                          target="_blank" rel="noopener" title="Open this area in Google Maps (opens a new window)"
+                      <div style="margin: 0px 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
+                        <a target="_blank" rel="noopener" title="Open this area in Google Maps (opens a new window)"
                           aria-label="Open this area in Google Maps (opens a new window)"
                           href="https://maps.google.com/maps?ll=40.712775,-74.005973&amp;z=18&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3"
                           style="display: inline;">
@@ -810,7 +880,8 @@
                               draggable="false"
                               style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;">
                           </div>
-                        </a></div>
+                        </a>
+                      </div>
                     </div>
                     <div></div>
                     <div>
@@ -869,7 +940,8 @@
                             <span>20 m&nbsp;</span>
                             <div
                               style="position: relative; display: inline-block; height: 8px; bottom: -1px; width: 48px;">
-                              <div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;"></div>
+                              <div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;">
+                              </div>
                               <div
                                 style="width: 4px; height: 8px; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
                               </div>
@@ -959,8 +1031,11 @@
                       </h6>
                     </div>
                     <p>
-                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia. Magnam, aspernatur
-                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni corporis earum
+                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia.
+                      Magnam,
+                      aspernatur
+                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni
+                      corporis earum
                       inventore totam consectetur corrupti! Corrupti, nihil sunt? Natus.
                     </p>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -983,8 +1058,11 @@
                       </h6>
                     </div>
                     <p>
-                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia. Magnam, aspernatur
-                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni corporis earum
+                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia.
+                      Magnam,
+                      aspernatur
+                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni
+                      corporis earum
                       inventore totam consectetur corrupti! Corrupti, nihil sunt? Natus.
                     </p>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -1007,8 +1085,11 @@
                       </h6>
                     </div>
                     <p>
-                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia. Magnam, aspernatur
-                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni corporis earum
+                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia.
+                      Magnam,
+                      aspernatur
+                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni
+                      corporis earum
                       inventore totam consectetur corrupti! Corrupti, nihil sunt? Natus.
                     </p>
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -1085,8 +1166,11 @@
               About
             </h4>
             <p>
-              We are dedicated to providing top-quality medical supplies and personalized service to our customers.We
-              understand the importance of easy access to healthcare products and strive to make your medical shopping
+              We are dedicated to providing top-quality medical supplies and personalized service to
+              our
+              customers.We
+              understand the importance of easy access to healthcare products and strive to make your
+              medical shopping
               experience convenient and hassle-free.
             </p>
           </div>
@@ -1119,21 +1203,19 @@
     </div>
   </footer>
   <!-- footer section -->
-
   <!-- jQery -->
-  <!--<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>-->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
   <!-- popper js -->
   <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>-->
-  <!-- bootstrap js -->
-  <!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
   <!-- owl slider -->
- <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>-->
   <!-- custom js -->
   <script type="text/javascript" src="js/custom.js"></script>
-  
+
 
 
 </body>
